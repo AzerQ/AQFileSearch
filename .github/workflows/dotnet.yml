@@ -31,6 +31,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+    - name: Set Tag
+      id: set_tag
+      run: echo "TAG=v$(date +'%Y%m%d%H%M%S')" >> $GITHUB_ENV
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v1
@@ -38,6 +41,7 @@ jobs:
         files: |
           ./AQFileSearch.CLI/bin/Release/net7.0/*
         token: ${{ secrets.GITHUB_TOKEN }}
+        tag_name: ${{ env.TAG }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Upload Release Asset
