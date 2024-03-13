@@ -1,3 +1,5 @@
+Automatic github workflow build added
+
 # AQFileSearch
 
 CLI utility for searching and replacing text in files recursively.
