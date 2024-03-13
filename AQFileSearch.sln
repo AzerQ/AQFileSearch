@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQFileSearch", "AQFileSearch.csproj", "{AE0FF80C-AB50-452D-A679-057DC7F80530}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AQFileSearch", "AQFileSearch.csproj", "{AE0FF80C-AB50-452D-A679-057DC7F80530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQFileSearch.Lib", "..\AQFileSearch.Lib\AQFileSearch.Lib.csproj", "{4FDECB1E-48E0-4AE9-824D-E7AADFA9FD78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AQFileSearch.Lib", "AQFileSearch.Lib\AQFileSearch.Lib.csproj", "{D7122EB2-6A87-4938-B94D-00095B8931FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{AE0FF80C-AB50-452D-A679-057DC7F80530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE0FF80C-AB50-452D-A679-057DC7F80530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE0FF80C-AB50-452D-A679-057DC7F80530}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4FDECB1E-48E0-4AE9-824D-E7AADFA9FD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FDECB1E-48E0-4AE9-824D-E7AADFA9FD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FDECB1E-48E0-4AE9-824D-E7AADFA9FD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FDECB1E-48E0-4AE9-824D-E7AADFA9FD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7122EB2-6A87-4938-B94D-00095B8931FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7122EB2-6A87-4938-B94D-00095B8931FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7122EB2-6A87-4938-B94D-00095B8931FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7122EB2-6A87-4938-B94D-00095B8931FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

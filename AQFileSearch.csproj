@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>aqsearch</AssemblyName>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AQFileSearch.Lib\AQFileSearch.Lib.csproj" />
+    <ProjectReference Include="AQFileSearch.Lib\AQFileSearch.Lib.csproj" />
   </ItemGroup>
 
 </Project>
