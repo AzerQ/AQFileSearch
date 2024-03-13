@@ -21,7 +21,7 @@ Replace {your-runtime} with your target runtime (e.g., win10-x64, linux-x64, osx
 
 Example usage:
 ```bash
-dotnet AQFileSearch.dll --directory <root_directory> --search <search_text> --replace <replacement_text> [options]
+dotnet aqseach.dll --directory <root_directory> --search <search_text> --replace <replacement_text> [options]
 ```
 
 Options:
@@ -39,13 +39,13 @@ Options:
 
 1. Search for text in all files with a specific extension:
 ```bash
-dotnet AQFileSearch.dll --directory /path/to/directory --search "your_search_text" --include ".txt" --regex
+dotnet aqseach.dll --directory /path/to/directory --search "your_search_text" --include ".txt" --regex
 ```
 2. Search and replace text in files:
 ```bash
-dotnet AQFileSearch.dll --directory /path/to/directory --search "your_search_text" --replace "your_replacement_text" --include ".txt"
+dotnet aqseach.dll --directory /path/to/directory --search "your_search_text" --replace "your_replacement_text" --include ".txt"
 ```
 3. Search for text and display the found lines with highlighting:
 ```bash
-dotnet AQFileSearch.dll --directory /path/to/directory --search "your_search_text" --details
+dotnet aqseach.dll --directory /path/to/directory --search "your_search_text" --details
 ```
