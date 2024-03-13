@@ -39,7 +39,7 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: |
-          ./AQFileSearch.CLI/bin/Release/net7.0/*
+          AQFileSearch.CLI/bin/Release/net7.0/*
         token: ${{ secrets.GITHUB_TOKEN }}
         tag_name: ${{ env.TAG }}
       env:
@@ -49,7 +49,7 @@ jobs:
       uses: actions/upload-release-asset@v1
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./AQFileSearch.CLI/bin/Release/net7.0/*
+        asset_path: AQFileSearch.CLI/bin/Release/net7.0/*
         asset_name: AQFileSearch.CLI_Release.zip
         asset_content_type: application/zip
       env:
